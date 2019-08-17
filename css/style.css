@@ -1,43 +1,65 @@
-.container{
-    margin: 0 auto;
-}
-body{
-    background-color: #efeee7;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #333333;
-    margin: 0;
+/*
+
+Each of these CSS elements is associated with an HTML Element, Class, or ID.
+Flip between this CSS file and the HTML to see how things line up.
+Experiment with deleting lines of code from the CSS to see how it affects the webpage when you refresh in the browser.
+
+*/
+
+body {
     padding: 0;
-}
-h1{
-    background-color: #333333;
-    color: #eee;
+    margin: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    line-height: 150%;
+    color: #333;
+    background: #efeee7;
+  }
+  
+  header {
+    background: #d21034;
+  }
+  
+  h1 {
+    padding: 20px 0;
+    margin: 0;
+    margin-bottom: 20px;
     font-size: 28px;
-}
-h2{
+    color: #eee;
+    text-align: center;
+    background: #333;
+  }
+  
+  h2 {
     font-size: 24px;
-    margin: 10px
-}
-a{
+  }
+  
+  a {
     color: #d21034;
-}
-.main_bio{
+  }
+  
+  .container {
+    width: 1024px;
+    margin: 0 auto;
+  }
+  
+  #main-bio,
+  #contact-info,
+  #bio-image {
     float: left;
+  }
+  
+  #main-bio {
     width: 70%;
-    margin: 10px
-}
-.contact-info{
-    float: left;
+  }
+  
+  #contact-info {
     width: 30%;
-    margin: 10px;
-    line-height: 80%;
-}
-.bio-image{
-    float: left;
+  }
+  
+  #bio-image {
     width: 200px;
-    border-radius: 4px;
-    border: solid 1px;
-    padding: 5px;
-}
-p{
-    margin: 10px
-}
+    height: 200px;
+    margin-right: 20px;
+  }
+  
